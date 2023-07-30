@@ -1,0 +1,15 @@
+.contact-form-section{
+    padding: 3vw 0;
+}
+.contact-form-section .contact-form .bg-success{
+    border-radius: 1vw;
+}
+.contact-form-section .contact-form h5:not(:first-child){
+    margin-top: 1vw;
+}
+.address-text{
+    font-size: 0.98vw;
+}
+.form-floating{
+    margin-bottom: 2vw;
+}

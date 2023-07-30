@@ -1,0 +1,61 @@
+.get-touch-section{
+    background-color: #000000;
+    padding: 6vw 0 2vw;
+}
+.get-touch-section .footer-heading{
+    font-size: 1.46vw;
+    color: #FFFFFF;
+    font-weight: 600;
+    margin-bottom: 1.5vw;
+}
+.contact-row{
+    margin-bottom: 1vw;
+}
+.contact-row i,
+.contact-row .contact-type{
+    color: #999999;   
+}
+.contact-row .contact-type{
+    text-decoration: none;
+    font-size: 0.98vw;
+}
+
+.social-link-row{
+    display: flex;
+}
+.social-link-row .social-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5vw;
+    height: 2.5vw;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+    text-decoration: none;
+    margin-right: 1.5vw;
+}
+.social-link-row .social-link .scocial-anchor{
+    font-size: 1.24vw;
+    color: #FFFFFF;
+}
+.copyright-parent-div{
+    border-top: 1px solid #999999;
+    padding-top: 1vw;
+}
+.copyright-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copyright-row .font-nunito{
+    font-size: 0.98vw;
+    color: #999999;
+    margin-bottom: 0;
+}
+.copyright-row .font-nunito a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.copyright-row .font-nunito a:hover{
+    color: #3CB815;
+}

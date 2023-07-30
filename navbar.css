@@ -1,0 +1,38 @@
+.navbar-transparent{
+    background: transparent;
+    padding: 1.5vw 2vw;
+    transition: all 1s ease;
+}
+.navbar-scroll{
+    background: #fff;
+    padding: 1vw 1.5vw;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+}
+.navbar-transparent .navbar-brand img{
+    width: 3.5vw;
+}
+.navbar-transparent .nav-item:not(:last-child){
+    margin-right: 2vw;
+}
+.common-header{
+    height: 100vh;
+}
+.common-header .carousel-item{
+    position: relative;
+    height: 100%;
+}
+.common-header .carousel-item .header-heading-div{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40%;
+    margin-left: 15.5vw;
+    text-align: center;
+}
+.common-header .carousel-item .header-heading-div h1{
+    font-weight: 700;
+    font-size: 4.5rem;
+}
+.common-header .carousel-item .img-fluid{
+    object-fit: cover;
+}
